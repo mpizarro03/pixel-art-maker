@@ -1,5 +1,4 @@
 // <button id="clicker">Boring button</button>
-//
 // <script>
 // // 1. Find and store the element we want to listen to events on.
 // var clickerButton = document.getElementById("clicker");
@@ -18,12 +17,18 @@
 //
 document.addEventListener("DOMContentLoaded", function() {
   let canvas = document.getElementsByClassName("canvas")[0]
-
   for(let i = 0; i < 4; i++) {
-    let pixel = document.createElement("div")
+    let pixel = document.createElement("div");
     pixel.classList.add("pixel");
     canvas.appendChild(pixel);
   }
 
+  canvas.addEventListener("click", function(event) {
+  console.log(event.target)
+  event.target.className = "pixel"
+  })
 
-})
+
+
+
+});

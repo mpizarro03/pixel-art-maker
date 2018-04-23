@@ -3,26 +3,70 @@
   grid-template-rows: auto;
   grid-template-columns: auto;
   border: 1px solid black;
-  Height: 80vh;
-  width: 80vh;
+  Height: 70vh;
+  width: 70vh;
   margin-left: auto;
   margin-right: auto;
 
 }
-
 .canvas {
   display: grid;
   grid-template-rows: repeat(2,1fr);
   grid-template-columns: repeat(2, 1fr);
   border: 1px solid blue;
-  Height: 75vh;
-  width: 75vh;
+  Height: 65vh;
+  width: 65vh;
   margin: auto;
 }
-
 .pixel {
   height: 100%;
   width: 100%;
   background-color: yellow;
   border: 1px solid black;
+}
+.mp {
+  color: green;
+}
+
+.palette {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  border: 1px solid black;
+  background-color: teal;
+  float: left;
+  Height: 40vh;
+  width: 40vh;
+  margin-left: auto;;
+  margin-right: auto;
+
+}
+.colors {
+  display: grid;
+  grid-template-rows: repeat(2,1fr);
+  grid-template-columns: repeat(2,1fr);
+  border: 1px solid black;
+  background-color: white;
+  float: left;
+  Height: 35vh;
+  width: 35vh;
+  margin: auto;
+
+}
+
+#green {
+  background-color: green;
+  border: 1px solid black;
+}
+#red {
+  background-color: red;
+  border: 1px solid black;
+}
+#blue {
+  background-color: blue;
+  border: 1px solid black;
+}
+#black {
+  background-color: black;
+  border: 1px solid white;
 }
