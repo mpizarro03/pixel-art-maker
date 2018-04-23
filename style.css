@@ -1,0 +1,28 @@
+.container {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  border: 1px solid black;
+  Height: 80vh;
+  width: 80vh;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.canvas {
+  display: grid;
+  grid-template-rows: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
+  border: 1px solid blue;
+  Height: 75vh;
+  width: 75vh;
+  margin: auto;
+}
+
+.pixel {
+  height: 100%;
+  width: 100%;
+  background-color: yellow;
+  border: 1px solid black;
+}
