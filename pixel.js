@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", function() {
   //canvas grid
   let canvas = document.getElementsByClassName("canvas")[0]
-  for(let i = 0; i < 4; i++) {
+  for(let i = 0; i < 16; i++) {
     let pixel = document.createElement("div");
     pixel.classList.add("pixel");
     canvas.appendChild(pixel);
